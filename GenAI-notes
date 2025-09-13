@@ -3,3 +3,15 @@ Autoencoder consists of sequential models: encoder and decoder
 The goal of autoencoder is to regenerate the original image and it is validated against the original image.
 
 CNN is used over ANN for images to save computation as large no of parameters needs to be calculated if we use ANN.
+
+
+How CNN can be equivalent to ANN ?
+A Neuron in ANN is equivalent to a filter or kernel in CNN.
+The weights in ANN is equivalent to the elements of filter in CNN . [vertical ,horizontal]
+In ANN we find the correct weights and biases ,similarly in CNN we find the correct filters that helps to detect the features of the image .
+Bias is added in both ANN and CNN so that function doesn't always pass through origin in ANN and important feature is not ignored in case of CNN.
+
+
+Difference:
+Output of each epoch is a single o/p .
+Output of each epoch is a feature map .
