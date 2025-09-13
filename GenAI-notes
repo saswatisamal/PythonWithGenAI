@@ -15,3 +15,4 @@ Bias is added in both ANN and CNN so that function doesn't always pass through o
 Difference:
 Output of each epoch is a single o/p .
 Output of each epoch is a feature map .
+CNN has idea about neighbouring pixel but ANN doesn't have idea about neighbouring pixel as the neurons are flattened .
