@@ -1,0 +1,3 @@
+Autoencoder :
+Autoencoder consists of sequential models: encoder and decoder 
+The goal of autoencoder is to regenerate the original image and it is validated against the original image.
