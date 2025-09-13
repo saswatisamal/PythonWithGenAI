@@ -20,5 +20,5 @@ Detecting features is happening in convolution layer . Before the final encoded 
 expects the data to be flattened .
 (Filter height*Filter width*inputchannel*outputchannel)+bias
 
-weights and biases are changing a lot : exploding gradient 
-weights and biases not changing : exploding gradient 
+weights and biases are changing a lot : exploding gradient [slow convergence]
+weights and biases not changing : vanishing  gradient
