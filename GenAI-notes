@@ -19,3 +19,6 @@ CNN has idea about neighbouring pixel but ANN doesn't have idea about neighbouri
 Detecting features is happening in convolution layer . Before the final encoded layer we get it is passed through the Dense layer and dense layer 
 expects the data to be flattened .
 (Filter height*Filter width*inputchannel*outputchannel)+bias
+
+weights and biases are changing a lot : exploding gradient 
+weights and biases not changing : exploding gradient 
