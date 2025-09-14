@@ -71,6 +71,16 @@ In Convolution2D we identify features but sometimes we need to downsample/blur t
 Max Pooling/ Avg Pooling 
 
 
+Discriminator is used in training phase but not in inference .
+Generator winning but discriminator struggling [Mode collapse]:Generator producing same image again and again .
+discriminator is winning and geneartor is failing then geneartor weights and biases needs to be updated and if discriminator is failing the 
+discriminator weights and biases should be updated.
+End goal is during inference the genrator should generate such fake images which appear real .
+
+
+
+
+
 
 
 
