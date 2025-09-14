@@ -80,6 +80,7 @@ End goal is during inference the genrator should generate such fake images which
 Latent space :
 In neural networks, latent space is a compressed representation of your input data, where the network encodes the most important features in fewer dimensions.
 
+VAE: variational autoencoder 
 
 
 
