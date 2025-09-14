@@ -77,6 +77,9 @@ discriminator is winning and geneartor is failing then geneartor weights and bia
 discriminator weights and biases should be updated.
 End goal is during inference the genrator should generate such fake images which appear real .
 
+Latent space :
+In neural networks, latent space is a compressed representation of your input data, where the network encodes the most important features in fewer dimensions.
+
 
 
 
