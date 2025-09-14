@@ -67,6 +67,11 @@ Data preprocessing – Normalization and standardization of input data significa
 
 
 
+In Convolution2D we identify features but sometimes we need to downsample/blur the given image so we can use pooling layer .
+Max Pooling/ Avg Pooling 
+
+
+
 
 
 
