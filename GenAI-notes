@@ -28,6 +28,8 @@ GAN: Generative Adversarial n/w   [ Generator , Discriminator]
 VAE : Variational autoencoder 
 Diffusion model 
 
+Start with VAE : 1:23:08 hrs 
+
 
 Different kinds of layers:
 Dense layer : Fully connected .
