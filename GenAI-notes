@@ -22,3 +22,18 @@ expects the data to be flattened .
 
 weights and biases are changing a lot : exploding gradient [slow convergence]
 weights and biases not changing : vanishing  gradient
+
+Different kinds of layers:
+Dense layer : Fully connected .
+Flatten layer: Any dimension to 1D .
+Convolution 2D: Detect features 
+Convolution 2D transponse: Upsampling 
+Reshape : Has 0 parameters 
+
+How to start creating models ?
+Sequential model with dense layers .
+Embedding layer : To give meaning to tokens 
+
+
+
+
