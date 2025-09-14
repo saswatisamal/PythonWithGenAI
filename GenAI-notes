@@ -46,8 +46,24 @@ These improves generalisation,avoids overfitting and applied at the time of trai
 
 Adding batch normalization (mean,standard deviation] layer to keep activation value/output of each layer under a particular range.
 
+This helps in faster convergence [ Weights and biases don't change much]
 
+If two models are trained on the same dataset, the one that achieves a target accuracy or loss in fewer epochs is said to have faster convergence.
+Factors that affect convergence speed:
 
+Learning rate – Too small → slow convergence, too large → unstable. A well-tuned rate accelerates convergence.
+
+Weight initialization – Good initialization avoids vanishing/exploding gradients and helps optimization move quickly.
+
+Optimizer choice – Adam, RMSprop, and momentum-based methods usually converge faster than vanilla SGD.
+
+Batch normalization – Helps stabilize activations and speed up training.
+
+Network architecture – Deeper/wider networks may converge slower if not designed properly.
+
+Regularization – Dropout, L2, etc., can affect how smoothly the network converges.
+
+Data preprocessing – Normalization and standardization of input data significantly improve convergence speed.
 
 
 
