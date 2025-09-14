@@ -23,6 +23,12 @@ expects the data to be flattened .
 weights and biases are changing a lot : exploding gradient [slow convergence]
 weights and biases not changing : vanishing  gradient
 
+Different types of generative models:
+GAN: Generative Adversarial n/w   [ Generator , Discriminator]
+VAE : Variational autoencoder 
+Diffusion model 
+
+
 Different kinds of layers:
 Dense layer : Fully connected .
 Flatten layer: Any dimension to 1D .
@@ -33,6 +39,13 @@ Reshape : Has 0 parameters
 How to start creating models ?
 Sequential model with dense layers .
 Embedding layer : To give meaning to tokens 
+
+If dense layer is not performing well??
+Add dropout layers [Switch off neurons randomly so that it adds randomness]
+These improves generalisation,avoids overfitting and applied at the time of training and ignored during inference .
+
+
+
 
 
 
