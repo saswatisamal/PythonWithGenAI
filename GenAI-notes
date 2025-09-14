@@ -44,6 +44,10 @@ If dense layer is not performing well??
 Add dropout layers [Switch off neurons randomly so that it adds randomness]
 These improves generalisation,avoids overfitting and applied at the time of training and ignored during inference .
 
+Adding batch normalization (mean,standard deviation] layer to keep activation value/output of each layer under a particular range.
+
+
+
 
 
 
