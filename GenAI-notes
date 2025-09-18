@@ -94,7 +94,7 @@ Regression : Continous values or have range of values[House price , stock price 
 
 Classification : Multi class , Binar classification 
 
-
+Scaling all the features to same range is called normalization
 
 
 
